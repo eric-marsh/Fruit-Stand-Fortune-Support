@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Support site for Fruit Stand Fortune, an idle game where you spin slots and sell fruit. For steam, ios, and android."
+    />
+
+    <meta property="og:title" content="Fruit Stand Fortune Support" />
+    <meta
+      property="og:description"
+      content="Support site for Fruit Stand Fortune, an idle game where you spin slots and sell fruit. For steam, ios, and android."
+    />
+    <meta property="og:image" content="./src/assets/profile_picture.jpg" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Fruit Stand Fortune Support</title>
+    <link rel="stylesheet" href="./src/style/input.css" />
+    <link rel="stylesheet" href="./src/style/output.css" />
+  </head>
+  <body>
+    <main
+      class="relative flex h-full min-h-screen bg-gradient-to-r from-sky-500 to-indigo-500 p-2"
+    >
+      <div class="mx-auto w-full bg-slate-100">
+        <div class="mx-auto my-14 w-3/4 max-w-4xl">
+          <section class="flex items-center justify-center">
+            <img
+              src="./src/assets/fruit_stand_fortune.png"
+              alt="Icon"
+              class="h-64 w-64 rounded-full shadow-xl"
+            />
+          </section>
+          <section class="mt-10">
+            <h1
+              class="text-left text-4xl leading-tight font-bold text-slate-900 md:text-5xl"
+            >
+              Fruit Stand Fortune - Support
+            </h1>
+            <p
+              class="mt-4 text-left text-lg leading-normal tracking-normal text-slate-900 md:text-xl"
+            >
+              Welcome to the support page! Please fill out the form below!
+            </p>
+          </section>
+          <section class="mt-10">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              class="mb-4 rounded"
+            >
+              <!-- Replace with your Access Key -->
+              <input
+                type="hidden"
+                name="access_key"
+                value="a0393f89-1c40-44fd-a308-e50c4bbb762e"
+              />
+              <!-- Form Inputs. Each input must have a name="" attribute -->
+
+              <label
+                class="mb-2 block text-sm font-bold text-gray-700"
+                for="password"
+              >
+                Message
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                required
+                class="focus:shadow-outline mb-4 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+              ></textarea>
+
+              <label
+                class="mb-2 block text-sm font-bold text-gray-700"
+                for="email"
+              >
+                Email (optional)
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="focus:shadow-outline mb-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+              />
+
+              <!-- Honeypot Spam Protection -->
+              <input
+                type="checkbox"
+                name="botcheck"
+                class="hidden"
+                style="display: none"
+              />
+
+              <button
+                type="submit"
+                class="focus:shadow-outline mt-4 mb-2 rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 focus:outline-none"
+              >
+                Submit Form
+              </button>
+            </form>
+          </section>
+          <section class="mt-10 h-full">
+            <img src="./src/assets/game_gif.gif" alt="Fruit Stand Fortune" />
+          </section>
+          <section class="mt-10 h-full">
+            <footer>© 2025 Gummy Grenade Games</footer>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
